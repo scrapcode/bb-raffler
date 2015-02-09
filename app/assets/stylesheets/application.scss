@@ -14,4 +14,40 @@
  *= require_self
  */
 
-.highlight { font-weight: bold; color: red; }
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+  margin-top: 50px;
+}
+
+#main {
+  background-color: #F3F3F3;
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    margin: 0;
+    padding: 3px;
+    border-bottom: 1px solid #CCC;
+  }
+}
+
+.remove { display: none; }
+
+.highlight {
+  font-weight: bold;
+  font-size: 18px;
+  color: red !important;
+}
+
+.winner {
+  margin-left: 50px;
+  color: #ccc;
+}

@@ -12,3 +12,5 @@
 <br><br>
 
 <button id="reset">Reset all winners</button>
+
+<button id="edit">Edit</button>

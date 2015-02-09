@@ -7,6 +7,7 @@ class BbRaffler.Views.EntriesIndex extends Backbone.View
     'click #draw': 'drawWinner'
     'click #reset': 'resetWinners'
     'click .remove': 'removeWinner'
+    'click #edit': 'toggleEdit'
 
   initialize: ->
     @collection.on('reset', @render, this)
@@ -17,6 +18,9 @@ class BbRaffler.Views.EntriesIndex extends Backbone.View
     $(@el).html(@template())
     @collection.each(@appendEntry)
     this
+
+  toggleEdit: (event) ->
+    $('.remove').toggle()
 
   createEntry: (event) ->
     event.preventDefault()
