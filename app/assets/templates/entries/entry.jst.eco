@@ -1,0 +1,7 @@
+
+<button class="remove" data-id="<%= @entry.get('id') %>">Delete</button>
+<%= @entry.get('name') %>
+<% if @entry.get('winner'): %>
+<span class="winner">WINNER</span>
+<% end %>
+

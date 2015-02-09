@@ -1,0 +1,7 @@
+Entry.create!(name: "Test Name", winner: false)
+Entry.create!(name: "Cam Name")
+Entry.create!(name: "Three Name")
+Entry.create!(name: "Test Name")
+Entry.create!(name: "Test Name")
+Entry.create!(name: "Test Name")
+Entry.create!(name: "Test Name")
