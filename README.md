@@ -1,6 +1,8 @@
 BbRaffler
 =========
 
+![BbRaffler](http://i.imgur.com/hhdpHUf.png)
+
 I wanted to do this as a test project using
 [Backbone.js](http://backbonejs.org). I used Ryan Bates'
 RailsCast Episodes 323 and 325 as a starting point, but they're
